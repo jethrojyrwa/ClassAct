@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+}
+
+.nav span {
+    padding: 0 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* style.css */
+
+/* Apply styles to the image with class "img" */
+.img {
+    max-width: 30%; /* Limit the maximum width to 30% of its container */
+    height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Add a border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle effect */
+}
+/* style.css */
+
+footer{
+    color: white;
+    background-color: white;
+}
+
+
