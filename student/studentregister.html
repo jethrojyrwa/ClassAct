@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>ClassAct - A Classroom Assistant</h1></center>
+    <form action="studentregsuccess.php" method="post" class="register-form">
+        <label for="rollno">Roll No:</label>
+        <input type="text" id="rollno" name="rollno" required>
+        <label for="f_name">First Name:</label>
+        <input type="text" id="f_name" name="f_name" required>
+        <label for="m_name">Middle Name:</label>
+        <input type="text" id="m_name" name="m_name" required>
+        <label for="l_name">Last Name:</label>
+        <input type="text" id="l_name" name="l_name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phno">Phone Number (+91):</label>
+        <input type="text" id="phno" name="phno" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="M">M</option>
+            <option value="F">F</option>
+        </select>
+        <label for="passw">Password:</label>
+        <input type="password" id="passw" name="passw" required>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

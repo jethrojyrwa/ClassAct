@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">ClassAct - A Classroom Assistant</h1>
+
+    <nav class="nav">
+        <a href="/classact/index.html">Home</a>
+    </nav>
+    
+    <div class="container">
+        <form action="studentauthenticate.php" method="POST" class="login-form">
+            <h2>Welcome Student! Login Below:</h2>
+            <label for="roll_no">Roll No:</label>
+            <input type="text" id="roll_no" name="roll_no" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <p>New User? <a href="studentregister.html">Register here</a></p>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
