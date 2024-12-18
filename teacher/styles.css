@@ -1,0 +1,756 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login-form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form p {
+    margin: 10px 0;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.registration-form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.class p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.class-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.create-class-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-class-link button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.create-class-link button:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.class-form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.class-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.class-form input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.class-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.class-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.view-rooms-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-rooms-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.view-rooms-btn button:hover {
+    background-color: #0056b3;
+}
+
+
+.students-table {
+    margin: 0 auto;
+}
+
+.students-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.students-table th,
+.students-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.students-table th {
+    background-color: #f2f2f2;
+}
+
+.students-table th:first-child,
+.students-table td:first-child {
+    border-left: none;
+}
+
+.students-table th:last-child,
+.students-table td:last-child {
+    border-right: none;
+}
+
+.students-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.students-table a {
+    text-decoration: none;
+    color: blue;
+}
+
+.students-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.students-table button:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.create-room-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-room-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.create-room-btn button:hover {
+    background-color: #0056b3;
+}
+
+.room-btn {
+    margin-bottom: 10px;
+}
+
+.room-btn a {
+    text-decoration: none;
+}
+
+.room-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.room-btn button:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.room-form {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.room-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.room-form input[type="date"],
+.room-form input[type="time"]{
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.room-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.room-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+
+.deactivate-room-btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.deactivate-room-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover,
+.deactivate-room-btn button:hover {
+    background-color: #0056b3;
+}
+
+.question-table {
+    margin: 20px auto;
+}
+
+.question-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.question-table th,
+.question-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.question-table th {
+    background-color: #f2f2f2;
+}
+
+.question-table th:first-child,
+.question-table td:first-child {
+    border-left: none;
+}
+
+.question-table th:last-child,
+.question-table td:last-child {
+    border-right: none;
+}
+
+.active-students {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Add these styles to the existing styles.css file */
+
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.mcq-form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.mcq-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mcq-form input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.mcq-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.mcq-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to the existing styles.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    margin: 0 5px;
+}
+
+.nav span {
+    margin: 0 5px;
+}
+
+.class-details {
+    margin: 20px;
+}
+
+.class-details p {
+    margin: 5px 0;
+}
+
+.student-details {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.student-details p {
+    margin: 5px 0;
+}
+
+.answer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.answer-table th, .answer-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.answer-table th {
+    background-color: #f2f2f2;
+}
+
+/* Existing styles from styles.css */
+/* Add or modify styles as needed for new elements/classes */
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+.nav-divider {
+    margin: 0 5px;
+}
+
+.roll-no,
+.class-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.attendance-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.attendance-table th {
+    background-color: #f0f0f0;
+}
+
+.present-attendance {
+    color: green;
+}
+
+.absent-attendance {
+    color: red;
+}
+
+.invalid-attendance {
+    color: gray;
+}
+
+.correct-reponse{
+    color: lightgreen;
+}
+
+.incorrect-response{
+    color: lightcoral;
+}
+
+.answer{
+    color:lightgreen;
+}
+
+/* Styles for radio buttons and labels */
+.radio-option {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 5px; /* Adjust as needed */
+}
+
+.radio-option label {
+    vertical-align: top;
+}
+
+.remove-student{
+    background-color: red;
+}
+
+.add-mcq-btn{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.add-mcq-btn button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.add-mcq-btn button:hover{
+    background-color: #0056b3;
+}
+
+/* Profile container styles */
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+
+/* Profile table styles */
+/* Profile table styles */
+.profile-table {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd; /* Add border */
+    border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.profile-table th {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #ccc; /* Set background color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center align text */
+    position: fixed; /* Fixed position at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    border-top: 1px solid #ccc; /* Add a border on top */
+}
+
+footer p {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: #555; /* Set text color */
+}
